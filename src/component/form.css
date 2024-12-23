@@ -1,0 +1,56 @@
+
+/* inputs boxes */
+.name-form, .country-form, .brith-form, .contect-form{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/* inputs */
+.name-form input, .country-form input, .contect-form input {
+    width: 280px;
+    height: 40px;
+    border-radius: 15px;
+}
+.brith-form input, .brith-form select{
+    width: 280px;
+    border-radius: 15px;
+}
+/* form box */
+.form-container{
+    border: 2px solid #FF6600 ;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.288);
+    margin-top: 50px !important;
+    margin: auto;
+    text-align: center;
+    padding: 50px; 
+    border-radius: 20px;
+    height: 450px;
+    margin-bottom: 100px;
+}
+ /* submit button */
+.sub button{
+    background-color: #FF6600;
+    width: 280px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    outline: #FF6600;
+    border: #FF6600;
+    color: #fff;
+    height: 35px;
+    margin-top: 20px;
+}
+.sub button:hover{
+    background-color: #e46f22;
+}
+/* header form */
+.fill h1{
+    margin-bottom: 40px;
+}

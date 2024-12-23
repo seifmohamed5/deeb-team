@@ -1,0 +1,127 @@
+.products-free h1{
+    margin: 35px 0 0 0 ;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background:  #fd7e14;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+
+
+
+.container-free {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 أعمدة */
+    gap: 20px;
+    padding: 80px;
+    
+}
+
+.card-free {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    
+}
+
+.card-free:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-out;
+}
+
+.card-free img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.card-free h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-free p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.details .i {
+    color: #fd7e14;
+    margin-right: 5px;
+}
+
+.btn-free {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+   
+}
+
+.btn-free:hover {
+    background:#494745;
+
+    }
+
+/* Media Queries */
+
+/* للأجهزة المتوسطة مثل التابلت */
+@media (max-width: 992px) {
+    .container-free {
+        grid-template-columns: repeat(2, 1fr); /* عمودين */
+        gap: 15px;
+    }
+}
+
+/* للأجهزة الصغيرة مثل الموبايل */
+@media (max-width: 600px) {
+    .container-free {
+        grid-template-columns: 1fr; /* عمود واحد */
+        gap: 10px;
+    }
+
+    .card-free {
+        padding: 10px;
+    }
+
+    .card-free img {
+        height: 120px;
+    }
+
+    .card-free h3 {
+        font-size: 1rem;
+    }
+
+    .details {
+        font-size: 0.8rem;
+    }
+
+    .btn-free {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}

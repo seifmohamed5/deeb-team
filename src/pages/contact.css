@@ -1,0 +1,105 @@
+/* contact background */
+.contact-page {
+    position: relative;
+    background-image: url("../img/pexels-cottonbro-4769464.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 20px;
+  }
+  
+  .contact-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-repeat: inherit;
+    background-attachment: inherit;
+    background-size: inherit;
+    filter: blur(3px) brightness(60%);
+    z-index: -1;
+  }
+  
+  
+  /* contact box */
+  .contact {
+    background: rgba(14, 14, 14, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    max-width: 500px;
+    width: 100%;
+    margin: 150px auto;
+  }
+  
+  .contact h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: #fd7e14;
+  }
+  
+  .contact p {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fd7e14;
+  }
+  
+  /* form start */
+  #contactform{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contactform label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(209, 181, 181);
+  }
+  
+  #contactform input,#contactform
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid rgba(17, 17, 17, 0.8);
+    font-size: 15px;
+    background-color: rgba(33, 7, 7, 0.5);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  #contactform input:focus,#contactform
+  textarea:focus {
+    outline: none;
+    border-color:#007bff;
+  }
+  
+  #contactform textarea {
+    border-radius: 20px;
+  }
+  
+  .submitform {
+    background-color: #fd7e14 !important;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitform:hover {
+    background-color: #343a40 !important;
+    transition:  0.5s ease;
+  }
+  
+  

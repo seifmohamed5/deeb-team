@@ -1,0 +1,25 @@
+/* nav bar styles */
+.btn{
+    background-color:  #FF6600 !important;
+    outline: none !important;
+    border: #FF6600  !important;
+    width: 110px;
+
+}
+.btn:hover{
+    background-color: #e46f22 !important;
+}
+.nav .logo{
+    color: #fd7e14 !important;
+    font-weight: 950;
+}
+.nav .title {
+color: #44425A;
+font-weight: 500;
+}
+.nav .title:hover{
+    color: #fd7e14;
+}
+.nav .title:focus{
+    color: #fd7e14 !important;
+}

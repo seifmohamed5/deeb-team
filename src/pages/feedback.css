@@ -1,0 +1,187 @@
+/* background feed back bpdy */
+.section{
+    position: relative;
+    background-image: url('../img/Web-design.jpg');
+    height: 100%;
+    width: 100%;
+    background-position:center ;
+    background-size: cover;
+    margin-top: 10px;
+
+} 
+.feed{
+    margin: auto;
+}
+/* form feed back */
+.form-feed{
+    margin: 40px auto;
+    background-color: #000;
+    box-shadow: 0 0 8px rgb(250, 250,250 ,0.6);
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.form-feed form {
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.form-feed h1{
+    padding: 10px 0;
+    color: #fd7e14;
+}
+.form-feed .id{
+    position: relative;
+}
+.id i {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.id input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 10px !important;
+    background: #181717;
+    padding-right: 45px;
+    padding: 0 15px;
+    font-size: 20px;
+    color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.form-feed textarea{
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 10px !important;
+    background: #181717;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;
+    color: #ffffff;
+}
+.form-feed button {
+    margin-top: 5px;
+    border: none;
+    background: #ff6600;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 10px !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.id input :focus ::placeholder,
+.form-feed textarea :focus ::placeholder{
+    padding: left 4px; 
+    color: #ffffff !important;
+    transition: all 0.3 ease;
+    -webkit-transition: all 0.3 ease;
+    -moz-transition: all 0.3 ease;
+    -ms-transition: all 0.3 ease;
+    -o-transition: all 0.3 ease;
+}
+
+.form-feed button:hover
+{
+    background-color: #fd7e14;
+}
+
+
+
+
+/* reviews cards */
+.rev-section{
+    text-align: center;
+}
+
+.rev-section h1{
+    color: #fd7e14;
+    margin-bottom: 40px 0;
+    font-size: 60px;
+}
+ 
+
+.review
+{
+    margin: 4rem auto;
+    min-width: 300px;
+    flex: 1;
+}
+.head-review
+{
+    margin: 1.75rem auto 0 auto;
+    width: 150px;
+    height: 150px;
+}
+.head-review img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgb(0, 0, 0 , .25);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 0px !important;
+    margin: auto;
+}
+.body-review
+{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 1.3rem;
+    padding: 2.5rem;
+    margin-top: 5px !important;
+    box-shadow: 3px 3px 10px  rgb(0, 0, 0);
+    height: 340px;
+    width: 300px;
+    margin: auto;
+}
+
+.namve-review
+{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: .25rem;
+    font-weight: 640;
+}
+
+.place-review
+{
+    color: #fd7e14;
+    font-style: italic;
+    font-weight: 500;
+}
+.rating{
+    color: rgb(253, 180, 42);
+    margin: 1rem 0;
+}
+.desc-review{
+    height: 150px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(206, 202, 202);
+
+}

@@ -1,0 +1,20 @@
+.section-home{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+.section-home h1{
+    font-size: 50px;
+    color: #ff6600;
+     margin-bottom: 30px; 
+}
+
+.section-home p{
+    font-size: 20px !important;
+    color: #666666 !important;
+    margin-bottom: 50px;
+    font-weight: 400;
+}

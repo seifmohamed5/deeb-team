@@ -1,0 +1,18 @@
+.help-box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 130px auto;
+}
+.help-box h2{
+    font-size: 45px;
+    color: #FF6600;
+    /* margin-bottom: 30px; */
+}
+.help-items{
+   margin:20px auto; 
+
+}
+.item-head{
+    font-size: 50px;
+}

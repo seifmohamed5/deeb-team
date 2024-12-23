@@ -1,0 +1,28 @@
+/* img */
+.header-img  {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/page-header.jpg), no-repeat center center;
+    background-size: cover !important;
+
+}
+/* page name */
+.title-header h2{
+    margin-top: 90px;
+    font-weight: 600;
+
+}
+.title-header p{
+    font-weight: 450;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: #fff;
+}
+/* link back to home */
+.title-header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.title-header a:hover{
+    color: #fd7e14;
+    text-decoration: underline;
+}

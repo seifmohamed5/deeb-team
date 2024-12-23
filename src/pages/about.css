@@ -1,0 +1,68 @@
+/* about header title */
+.about h2{
+   
+    display: flex;
+    color: #ff6600;
+    font-size: 23px;
+ 
+}
+/* about img */
+.about-img img{
+    width: 105%;
+    height: 100%;
+    border-radius: 15px;
+    opacity: 1;
+}
+.about-img{
+    margin-top: 24px !important;
+    margin:auto;
+
+}
+/* title */
+.topic{
+    display: flex;
+    margin: 5px;
+    padding: 10px; 
+}
+
+.about-title h3{
+    color: #31363b;
+    margin: 15px 0px;
+    font-weight: 750;
+    font-size: 31px;
+
+
+}
+.about-title p{
+    font-size: 17px;
+    line-height: 1.7;
+    color: #b67737;
+    text-align:justify;
+    margin: 15px 0px;
+
+    
+
+}
+.about-title{
+    padding: 70px 0px 20px 0px !important; 
+    margin-right: 15px;
+
+}
+
+/* learn more button */
+.learn-more{
+    color: rgb(249, 249, 249);
+    background: #ff6600;
+    border-radius: 15px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    display: flex; 
+    width: 30%;
+    margin-top: 25px;
+}
+
+.learn-more:hover{
+     background: #383840;
+}
