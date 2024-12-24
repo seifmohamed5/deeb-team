@@ -14,7 +14,7 @@
 }
 /* inputs */
 .name-form input, .country-form input, .contect-form input {
-    width: 100%;
+    width: 100% ;
     height: 40px;
     border-radius: 15px;
     box-sizing: border-box;
