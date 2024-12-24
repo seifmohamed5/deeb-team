@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deeb-team/static/css/main.100ebe2f.css",
+    "main.css": "/deeb-team/static/css/main.dbad8f6f.css",
     "main.js": "/deeb-team/static/js/main.a0c46173.js",
     "static/media/pexels-cottonbro-4769464.jpg": "/deeb-team/static/media/pexels-cottonbro-4769464.849808036ba4baf4e0d4.jpg",
     "static/media/Web-design.jpg": "/deeb-team/static/media/Web-design.e096a92c8d762f352c5a.jpg",
@@ -15,11 +15,11 @@
     "static/media/1628644950-javascript.avif": "/deeb-team/static/media/1628644950-javascript.bc2d157ea351fdc7869f.avif",
     "static/media/avatar_modified.svg": "/deeb-team/static/media/avatar_modified.79217fdcfed1c7c43ffd4d68acc83721.svg",
     "index.html": "/deeb-team/index.html",
-    "main.100ebe2f.css.map": "/deeb-team/static/css/main.100ebe2f.css.map",
+    "main.dbad8f6f.css.map": "/deeb-team/static/css/main.dbad8f6f.css.map",
     "main.a0c46173.js.map": "/deeb-team/static/js/main.a0c46173.js.map"
   },
   "entrypoints": [
-    "static/css/main.100ebe2f.css",
+    "static/css/main.dbad8f6f.css",
     "static/js/main.a0c46173.js"
   ]
 }
